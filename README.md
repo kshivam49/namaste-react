@@ -37,4 +37,9 @@ import {Component} from "path";
 (Normal JS utility functions)
 
 - useState() - Superpowerful State Variables in react
-- useEffect()
+
+# useEffect()
+
+- If no dependency array => useEffect is called on every render
+- If the dependency array is empty = [] => useEffect is called on initial render(just once)
+- If the dependency array has variable => useEffect is called every time that variable updated
