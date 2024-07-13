@@ -48,3 +48,13 @@ import {Component} from "path";
 
 - Client Side Routing
 - Server Side Routing
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit & react-redux
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Reducer
+- Selector
